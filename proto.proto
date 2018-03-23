@@ -1,0 +1,18 @@
+message "catalog" {
+
+  message CATALOG {
+
+    message BOOK {
+      required string -id = 0
+      required string author = 1
+      required string title = 2
+      required string genre = 3
+      required string price = 4
+      required string publish_date = 5
+      required string description = 6
+    }
+
+    repeated BOOK book = 0
+  }
+  required CATALOG catalog = 0
+}

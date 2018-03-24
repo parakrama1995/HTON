@@ -1,0 +1,23 @@
+/
+
+	<table id=personTable class="table table-hover table-dark table-bordered":[
+			<tr:[
+				<th:Name>,
+				<th:Age>,
+				<th:City>
+			    ]
+			>,
+			<tr:[
+				<td:Akila>,
+				<td:22>,
+				<td:Mount Lavinia>
+			    ]
+			>,
+			<tr:[
+				<td:Randil>,
+				<td:23>,
+				<td:Colombo>
+			    ]
+			>
+		]
+	>
